@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Domaci 2 - Zadatak C</title>
+
+  <!-- Povezivanje s CSS dokumentom -->
+  <link rel="stylesheet" href="./styles/style.css" />
+
+  <!-- Google Font - Open Sans -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="subject">
+        <small>PZI</small>
+        <span class="dot"></span>
+        <small>Domaći rad 2</small>
+      </div>
+      <h2>Zadatak C - <em>Papir-škare-kamen</em></h2>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h2 class="title">Odaberi oblik:</h2>
+
+      <section id="shapes">
+        <article id="paper" class="shape">
+          <img class="shape-img" src="./images/paper.png" alt="Paper" />
+          <h3 class="shape-name">Papir</h3>
+        </article>
+        <article id="scissors" class="shape">
+          <img class="shape-img" src="./images/scissors.png" alt="Škare" />
+          <h3 class="shape-name">Škare</h3>
+        </article>
+        <article id="rock" class="shape">
+          <img class="shape-img" src="./images/rock.png" alt="Kamen" />
+          <h3 class="shape-name">Kamen</h3>
+        </article>
+      </section>
+
+      <button id="play">Igraj!</button>
+
+      <section id="result">
+        <p></p>
+        <h2></h2>
+        <p></p>
+      </section>
+
+    </div>
+  </main>
+
+  <!--Povezivanje sa js-->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
